@@ -15,6 +15,7 @@ h2{
   padding: 15px;
   font-size: 19px;
   font-weight: 800;
+  align-items: center;
 }
 
 body {
@@ -39,12 +40,13 @@ a:hover {
 }
 
 .portfolio-container{
-     padding-bottom: 10%; ;
+     padding-bottom: 15%; ;
      padding-top: 10%;
 
 }
 .title {
     font-size: 40px;
+    margin: 5%;
 }
 
 #top {
@@ -132,9 +134,12 @@ footer {
     }
 
     .contact-1 {
-        max-width: 75%;
-        margin: auto;
-        text-align: center;
+        
+      max-width: 75%;
+      margin: auto;
+      text-align: center;
+      display: inline-block;
+     
     }
     
     .top {
@@ -163,11 +168,13 @@ footer {
 
     }
     img{
-        transition-duration: 0,5s;
+        transition-duration: .5s;
     }
     img:hover {
         transform: scale(1.15);
     }
+
+   
 
 }
 @media screen and (min-width: 1024px) {
